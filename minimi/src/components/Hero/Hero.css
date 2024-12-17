@@ -1,0 +1,21 @@
+.container {
+  height: 600px;
+  width: auto;
+  border: 1px solid white;
+}
+
+.box-1 {
+  height: 100px;
+  background-color: antiquewhite;
+}
+
+.box-2 {
+  height: 100px;
+  background-color: aquamarine;
+}
+
+/* Hero Image */
+.hero--image {
+  width: 100%;
+  
+}
