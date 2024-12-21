@@ -1,15 +1,16 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
   line-height: 1.5;
   font-weight: 400;
-  --color-primary: #ECCDB4;
-  --color-secondary: #F0EDD4;
-  --color-accent: #EDD0E4;
+  --color-primary: #E18AAA;
+  --color-secondary: #b19cd8;
+  --color-accent: #f1528c;
   --color-headings: #7d3f3f;
-  --color-body: #464d85;
+  --color-body: #666667;
   color: var(--color-headings);
   /* background-color: #242424; */
-  background-color: #f5eee5;
+  background-color: #fff;
   
 }
 
@@ -20,4 +21,52 @@
 
 p {
   color: var(--color-body);
+}
+
+
+/* Collapsibles */
+
+.collapsible {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.collapsible__content {
+  display: none;
+}
+
+.collapsible--expanded .collapsible__content {
+  display: block;
+  
+}
+
+/* Lists */
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  color: var(--color-body);
+}
+
+/* links */
+
+a {
+  text-decoration: none;
+  color: var(--color-body);
+  font-size: 2.5rem;
+  
+  transition: .15s;
+}
+a:hover {
+  color: var(--color-accent);
+
+}
+
+@media screen and (min-width: 1024px) {
+  a {
+    font-size: 2rem;
+  }
 }

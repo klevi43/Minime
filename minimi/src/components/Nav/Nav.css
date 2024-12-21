@@ -1,0 +1,36 @@
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: end;
+}
+
+span {
+  padding-bottom: 2rem;
+}
+
+.nav__list {
+  width: 100%;
+  margin: 0;
+}
+.nav__item {
+  padding: 0 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    flex-wrap: nowrap;
+  }
+  .nav__list {
+    display: flex;
+    width: auto;
+  }
+  .nav__item {
+    padding: 0 0.8rem;
+  }
+}
