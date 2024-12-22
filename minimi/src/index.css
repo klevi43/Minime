@@ -36,11 +36,19 @@ p {
 
 .collapsible__content {
   display: none;
+  transition: all .5s ease;
 }
 
 .collapsible--expanded .collapsible__content {
   display: block;
+  transition: all .5s ease;
   
+}
+
+@media screen and (min-width: 768px) {
+  .hidden {
+    display: none;
+  }
 }
 
 /* Lists */

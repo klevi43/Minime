@@ -17,9 +17,19 @@ span {
 .nav__list {
   width: 100%;
   margin: 0;
+  text-align: center;
 }
 .nav__item {
-  padding: 0 2rem;
+  margin: 0;
+  padding: 0.3rem;
+}
+
+.nav__item:after {
+  content: "";
+  display: block;
+  padding: 0 0;
+  width: auto;
+  border-bottom: 1px solid #aaabbb;
 }
 
 @media screen and (min-width: 768px) {
