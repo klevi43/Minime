@@ -4,19 +4,22 @@
   line-height: 1.5;
   font-weight: 400;
   --color-primary: #E18AAA;
-  --color-secondary: #b19cd8;
+  --color-secondary: rgb(177, 156, 216);
   --color-accent: #f1528c;
-  --color-headings: #7d3f3f;
+  --color-headings: #444444;
   --color-body: #666667;
-  color: var(--color-headings);
+  color: var(--color-body);
   /* background-color: #242424; */
   background-color: #fff;
   
 }
 
 .header {
+  color: var(--color-headings);
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 6rem;
+  margin: 0;
+  padding-top: 2rem;
 }
 
 p {

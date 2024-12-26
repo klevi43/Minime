@@ -43,4 +43,7 @@ span {
   .nav__item {
     padding: 0 0.8rem;
   }
+  .nav__item:after {
+    border-bottom: none;
+  }
 }
