@@ -6,12 +6,15 @@ import Hero from './components/Hero'
 import Nav from "./components/Nav/Nav"
 function App() {
   const [count, setCount] = useState(0)
-
+  const [isNavOpen, setIsNavOpen] = useState(false);
+  const toggleNavBar = () => {
+    setIsNavOpen(!isNavOpen);
+}
   return (
     <>
       
       <div>
-        <Nav></Nav>
+        <Nav isNavOpen={isNavOpen} toggleNavBar={toggleNavBar}></Nav>
       </div>
       <div>
         <Hero/>

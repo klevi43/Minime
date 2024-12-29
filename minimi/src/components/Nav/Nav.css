@@ -3,6 +3,10 @@
   height: 40px;
 }
 
+.logo--text {
+  color: var(--color-primary);
+}
+
 .nav {
   display: flex;
   justify-content: space-between;

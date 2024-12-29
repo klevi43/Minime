@@ -1,23 +1,16 @@
 .container {
-  height: 600px;
   width: auto;
   /* border: 1px solid black;
   border-radius: 5px; */
   position: relative;
   text-align: center;
+  padding-right: 0;
 }
 
-.box-1 {
-  height: 100px;
-  background-color: antiquewhite;
-  position: absolute;
-  bottom: 50px;
-  right: 16px;
-}
 
 .hero__box {
   height: 365px;
-  background-color: rgb(177, 156, 216, 0.7);
+  background-color: var(--color-primary-opaque);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -28,21 +21,23 @@
 
 /* Hero */
 .hero__image {
+  height: 100%;
   width: 100%;
   max-width: 423px;
-  border-radius: 5px;
+  
 }
 
 .hero__text {
-  color: #fff;
-  font-size: 9rem;
+  color: #f9e8eb;
 }
 .centered {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  width: 100%;
+  top: 33%;
+  left: 20%;
   transform: translate(-50%, -50%);
 }
+
 
 
 
