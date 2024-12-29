@@ -5,6 +5,7 @@
   position: relative;
   text-align: center;
   padding-right: 0;
+  color: var(--color-background);
 }
 
 
@@ -16,6 +17,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: var(--color-background);
 }
 
 
@@ -27,17 +29,39 @@
   
 }
 
-.hero__text {
-  color: #f9e8eb;
+.hero__header {
+  color: var(--color-background);
+  text-align: center;
 }
-.centered {
+.hero__subheader {
+  color: var(--color-background);
+  text-align: start;
+
+}
+
+
+.top-right {
   position: absolute;
   width: 100%;
-  top: 33%;
-  left: 20%;
+  top: 16%;
+  left: 75%;
   transform: translate(-50%, -50%);
 }
 
+.bottom-left {
+  position: absolute;
+  width: 70%;
+  top: 86.5%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+}
 
+.bottom-right {
+  position: absolute;
+  width: 70%;
+  top: 90%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+}
 
 

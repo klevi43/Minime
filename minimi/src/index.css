@@ -9,15 +9,15 @@
   line-height: 1.5;
   font-weight: 400;
   --color-primary: #ea8095;
-  --color-primary-opaque: rgb(234, 128, 149, 0.6);
-  --color-background-opaque: rgb(254, 241, 245, 0.6);
   --color-secondary: rgb(177, 156, 216);
-  --color-accent: #f1528c;
+  --color-accent: #e85f7b;
   --color-headings: #444444;
-  --color-body: #666667;
-  color: var(--color-body);
+  --color-links: #666667;
+  --color-background: #faf5f5;
+  /* --color-body: #fcf5f7; */
+  /* color: var(--color-links); */
   /* background-color: #242424; */
-  background-color: #FEF1F5;
+  background-color: var(--color-background);
   margin: 0;
   padding: 0;
   
@@ -35,14 +35,30 @@ h2 {
   font-size: 5rem;
   margin: 0;
 }
-
-p {
-  color: var(--color-body);
+.subheader {
+  font-size: 2.2rem;
 }
 
+/* Buttons */
 button {
   background: none;
   border: none;
+}
+
+.btn {
+  border: 1px solid var(--color-accent);
+  margin: 1rem;
+  padding: 1rem;
+  color: #faf5f5;
+  font-weight: 400;
+}
+
+.btn-primary {
+  background-color: var(--color-accent);
+}
+
+.btn:hover {
+  padding: 1.3rem;
 }
 
 /* Collapsibles */
@@ -84,15 +100,11 @@ button {
 
 a {
   text-decoration: none;
-  color: var(--color-body);
+  color: var(--color-links);
   font-size: 2.5rem;
-  
-  transition: .15s;
 }
-a:hover {
-  color: var(--color-accent);
 
-}
+
 
 @media screen and (min-width: 1024px) {
   a {
