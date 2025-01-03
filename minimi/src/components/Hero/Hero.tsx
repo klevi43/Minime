@@ -13,18 +13,22 @@ function Hero() {
               <header className="hero__header-container">
                 <div className="header hero__header">
                   <h2 className="hero__heading">
-                    <div>
+                    {/* <div>
                       함께
                     </div>
                     <div>
                       배우자
-                    </div>
+                    </div> */}
+                    함께<br/>
+                    배우자
                   </h2> 
                 </div>
                 <div className="subheader hero__subheader">
-                  K-pop 댄스부터
-                  필라테스까지
-                  다 있습니다
+                  <p className="hero__subheading">
+                    K-pop 댄스부터<br />
+                    필라테스까지 
+                    다 있습니다
+                  </p>
                 </div>
                 <div className="hero__button">
                 <Button/>

@@ -204,28 +204,39 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: end;
+    padding: 0.5rem;
   }
   .hero__header {
     position: static;
-    text-align: center;
+    text-align: end;
     
   }
 
   .hero__heading {
     display: flex;
     flex-direction: row;
+    font-size: 10rem;
+    line-height: 12rem;
+    /* margin-bottom: 5rem; */
   }
 
   .hero__subheader {
     position: static;
-    color: #ffdee4;
-    
+    color: #fee7ec;
+    width: 100%;
+
   }
 
+  .hero__subheading {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    padding-left: 2rem;
+  }
   
   .hero__button {
     position: static;
+    
   }
 }
 
