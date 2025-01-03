@@ -9,30 +9,33 @@ function Hero() {
   return (
     <>
         <div className="container grid grid--1x2">
-            <div className="hero__content">
-              <div className="hero__header-content">
-                <h2 className="header hero__header">
-                  <div>함께</div>
-                  <div>배우자</div>
-                
-                </h2>
-              </div>
-              <div className="hero__subheader-content">
-                <p className="subheader hero__subheader">
-                  <div>K-pop부터</div>
-                  <div>필라테스까지</div>
-                  <span>다!</span> 있습니다.
-                </p>
+            
+              <header className="hero__header-container">
+                <div className="header hero__header">
+                  <h2 className="hero__heading">
+                    <div>
+                      함께
+                    </div>
+                    <div>
+                      배우자
+                    </div>
+                  </h2> 
+                </div>
+                <div className="subheader hero__subheader">
+                  K-pop 댄스부터
+                  필라테스까지
+                  다 있습니다
+                </div>
                 <div className="hero__button">
                 <Button/>
               </div>
-              
-              </div>
-              
-            </div>
-              
+                
+              </header>
+            
+            <div className="hero__image-container">
               <img className="hero__image" src={hero} alt="" />
               
+            </div>
         </div>
             
             

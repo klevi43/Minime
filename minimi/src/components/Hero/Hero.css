@@ -1,8 +1,7 @@
-.container {
+/* .container {
   position: relative;
   width: 100%;
-  /* border: 1px solid black;
-  border-radius: 5px; */
+
   
   text-align: center;
   padding-right: 0;
@@ -11,7 +10,80 @@
 
 
 
+.hero__content {
+  position: absolute;
+  height: 450px;
+  min-height: 450px;
+  width: 100%;
+  
+}
+.hero__image {
+  height: 100%;
+  width: 100%;
+  
+}
+
+.hero__header{
+  margin-top: 2.5rem;
+  color: #333;
+  text-align: center;
+  display: block;
+  justify-self: end;
+  padding: 0 2rem;
+  
+}
+.hero__header-content {
+  height: 50%;
+}
+
+.hero__subheader-content {
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.hero__subheader {
+  color: #333;
+  text-align: start;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.hero__button {
+  text-align: start;
+  margin-bottom: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  
+  .container {
+    background-color: var(--color-accent);
+    border: 1px solid black;
+    
+  }
+  .hero__header {
+    justify-self: center;
+    align-self: center;
+  }
+  
+  .hero__content {
+    position: static;
+    align-items: center;
+  }
+  
+  .hero__subheader-content {
+    align-items: center;
+  }
+  .hero__button {
+    position: relative;
+    left: 90%;
+  }
+  
+  
+}
 
 
 
-
+ */
